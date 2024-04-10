@@ -1,0 +1,10 @@
+app
+assets
+cache_folder
+docs
+lavis
+result_dir
+run_scripts
+sevila_checkpoints
+sevila_data
+videos
