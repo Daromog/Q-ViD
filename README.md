@@ -140,9 +140,6 @@ model.finetuned=${ckpt} \
 run.task='videoqa'
 
 ```
-## Acknowledgments
-We thank the developers of LAVIS, BLIP-2, SeViLa for their public code release.
-
 ## Citation
 if it was useful for your work please cite our paper:
 
@@ -156,3 +153,6 @@ if it was useful for your work please cite our paper:
       primaryClass={cs.CV}
 }
 ```
+
+## Acknowledgments
+We thank the developers of LAVIS, BLIP-2, SeViLa for their public code release.
