@@ -77,7 +77,7 @@ model.model_type=flant5xxl \
 model.cap_prompt="Provide a detailed description of the image related to the" \
 model.qa_prompt="Considering the information presented in the captions, select the correct answer in one letter (A,B,C,D) from the options." \
 datasets.star.vis_processor.eval.n_frms=64 \
-run.batch_size_eval=1 \
+run.batch_size_eval=2 \
 model.task='qvh_freeze_loc_freeze_qa_vid' \
 model.finetuned=${ckpt} \
 run.task='videoqa'
@@ -115,7 +115,6 @@ ckpt='Q-ViD/qvid_checkpoints/instruct_blip_flanxxl_trimmed.pth'
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 evaluate.py \
 --cfg-path Q-ViD/lavis/projects/qvid/tvqa_eval.yaml \
 --options run.output_dir=${result_dir}${exp_name} \
-model.frame_num=4 \
 model.model_type=flant5xxl \
 model.cap_prompt="Provide a detailed description of the image related to the" \
 model.qa_prompt="Considering the information presented in the captions, select the correct answer in one letter (A,B,C,D,E) from the options." \
@@ -140,7 +139,7 @@ model.model_type=flant5xxl \
 model.cap_prompt="Provide a detailed description of the image related to the" \
 model.qa_prompt="Considering the information presented in the captions, select the correct answer in one letter (A,B,C,D,E) from the options." \
 datasets.intentqa.vis_processor.eval.n_frms=64 \
-run.batch_size_eval=1 \
+run.batch_size_eval=2 \
 model.task='qvh_freeze_loc_freeze_qa_vid' \
 model.finetuned=${ckpt} \
 run.task='videoqa'
