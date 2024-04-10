@@ -13,5 +13,3 @@ run.batch_size_eval=2 \
 model.task='qvh_freeze_loc_freeze_qa_vid' \
 model.finetuned=${ckpt} \
 run.task='videoqa'
-
-nvidia-smi
