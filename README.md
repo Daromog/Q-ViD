@@ -37,8 +37,8 @@ We test Q-ViD in five video QA benchmarks. They can be downloaded in the followi
 4. [TVQA](https://github.com/jayleicn/TVQA/tree/master)
 5. [IntentQA](https://github.com/JoseponLee/IntentQA)
 
-After downloading, the original files (json,jsonl,csv) from each dataset are preprocessed to a unique json format using a preprocessing_script.
-Afterwards, update the paths in config_file for the video folder and annotation files
+After downloading, the original files (json,jsonl,csv) from each dataset, they have to be preprocessed to a unique json format using a [preprocessing_script](data_preprocessing/Data_Preprocess.ipynb).
+Afterwards, update the paths for the video folder and annotation files from each dataset in the corresponding [config](lavis/configs/datasets) files.
 
 ## Usage
 Update the paths depending on your directory:
