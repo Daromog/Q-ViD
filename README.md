@@ -45,7 +45,6 @@ To run Q-ViD use the following [code](run_scripts/inference/qvid_infer.sh), depe
 
 ### NExT-QA
 ```
-#Path for saving results
 result_dir="YOUR_PATH"
 
 exp_name='nextqa_infer'
@@ -65,7 +64,6 @@ run.task='videoqa'
 
 ### STAR
 ```
-# parameters/data path
 result_dir="YOUR_PATH"
 
 exp_name='star_infer'
@@ -86,7 +84,6 @@ run.task='videoqa'
 
 ### How2QA
 ```
-# parameters/data path
 result_dir="YOUR_PATH"
 
 exp_name='how2qa_infer'
@@ -107,7 +104,6 @@ run.task='videoqa'
 
 ### TVQA
 ```
-# parameters/data path
 result_dir="YOUR_PATH"
 
 exp_name='tvqa_infer'
@@ -127,7 +123,6 @@ run.task='videoqa'
 
 ### IntentQA
 ```
-# parameters/data path
 result_dir="YOUR_PATH"
 
 exp_name='intentqa_infer'
@@ -148,4 +143,16 @@ run.task='videoqa'
 ## Acknowledgments
 We thank the developers of LAVIS, BLIP-2, SeViLa for their public code release.
 
+## Citation
+if it was useful for your work please cite our paper:
 
+```
+@misc{romero2024questioninstructed,
+      title={Question-Instructed Visual Descriptions for Zero-Shot Video Question Answering}, 
+      author={David Romero and Thamar Solorio},
+      year={2024},
+      eprint={2402.10698},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
