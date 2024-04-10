@@ -41,7 +41,7 @@ After downloading, the original files (json,jsonl,csv) from each dataset they ha
 Afterwards, update the paths for the video folder and annotation files in the corresponding [config](lavis/configs/datasets) files from each dataset.
 
 ## Usage
-Update the paths depending on your directory:
+To run Q-ViD use the following [code](run_scripts/inference/qvid_infer.sh), depending on each dataset modify the script as it's shown below. Here we define the corresponding prompts, number of frames, and batch size, please note that for the latter we change the value for each dataset according to our computational limitations.
 
 ### NExT-QA
 ```
