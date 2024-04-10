@@ -6,8 +6,8 @@ This is the official repository for the Q-ViD paper available at: https://arxiv.
 Q-ViD performs video QA by relying on an 𝐨𝐩𝐞𝐧 instruction-aware vision-language model to generate video frame descriptions that are more relevant to the task at hand, it uses question-dependent captioning instructions as input to [InstructBLIP](https://github.com/salesforce/LAVIS/blob/main/projects/instructblip/README.md) to generate useful frame captions. Subsequently, we use a QA instruction that combines the captions, question, options and a task description as input to a LLM-based reasoning module to perform video QA. When compared with prior works based on more complex architectures or 𝐜𝐥𝐨𝐬𝐞𝐝 GPT models, Q-ViD achieves either the second-best or the best overall average accuracy across all evaluated benchmarks.
 
 <p align="center">
-  <img width="604" alt="image" src="https://github.com/Daromog/Q-ViD/assets/40415903/218031a6-3e0f-466b-8ebb-73fa527acde3">
-  <img width="733" alt="image" src="https://github.com/Daromog/Q-ViD/assets/40415903/f86085f7-ab48-42ec-9a52-5ead226c82ba">
+  <img width="604" alt="image" src="<img width="854" alt="fig1" src="https://github.com/Daromog/Q-ViD/assets/40415903/bb43959b-1b9a-42b0-a6f6-95f322ccf2d3">
+  <img width="733" alt="image" src=<img width="729" alt="3f" src="https://github.com/Daromog/Q-ViD/assets/40415903/85b5a47c-daf2-4d51-9f1d-adbc8fa2552a">
 </p>
 
 Q-ViD relies on [InstructBLIP](https://github.com/salesforce/LAVIS/blob/main/projects/instructblip/README.md), its original trimmed checkpoints that can be used by the [Lavis](https://github.com/salesforce/LAVIS/tree/main) library can be downloaded with the following links:
